@@ -1,4 +1,4 @@
-Powershell Invoke-WebRequest https://dragonfly-it-public-storage.s3.amazonaws.com/SetACL.exe -OutFile C:\Windows\Temp\SetACL.exe
+Powershell Invoke-WebRequest https://PUBLIC/ACCESS/TO/SetACL.exe -OutFile C:\Windows\Temp\SetACL.exe
 
 C:\Windows\Temp\SetACL.exe -on "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Communications" -ot reg -actn setowner -ownr "n:Everyone"
 C:\Windows\Temp\SetACL.exe -on "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Communications" -ot reg -actn ace -ace "n:Everyone;p:full"
