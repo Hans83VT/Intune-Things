@@ -5,7 +5,7 @@ Scripts &amp; other useful files for Microsoft Intune.
 
 ### Rosetta Installation.sh
 
-Installs Rosetta2 on an ARM-based Mac.
+Installs Rosetta2 on an ARM-based Mac. This script was originally created by Microsoft.
 
 ## Windows Remediations
 
