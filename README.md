@@ -37,6 +37,6 @@ This is only applicable for Windows 11.
 
 Makes changes to the Windows Registry to prevent the consumer version of Teams from being reinstalled.
 
-This requires a copy of SetACL.exe to be publically accessible. You need to update the first line of the script with the public URL to the file. Dropbox or Amazon S3 both work great.
+This requires a copy of [SetACL.exe](https://helgeklein.com/setacl/) to be publically accessible. You need to update the first line of the script with the public URL to the file. Dropbox or Amazon S3 both work great.
 
 This is only applicable for Windows 11.
